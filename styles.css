@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.Blue{
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+  color: #4682B4;
+  text-align: center;
+}
+@media screen and (max-width: 1500px){
+body{
+  background-color: #ADD8E6;
+}}
+.image{
+  display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   justify-content: center;
+}
+img{
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  padding: 5px;
+  border-style: double;
+  border-color: white;
+  border-width: thick;
+}
